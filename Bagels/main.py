@@ -70,9 +70,7 @@ def game():
         
         print()      
         
-        
-        
-if __name__ == "__main__":
+def main():
     while True:
         game()
         choice = input("Wanna Play Again (y or n): ")
@@ -81,3 +79,7 @@ if __name__ == "__main__":
             continue
         else:
             break
+        
+        
+if __name__ == "__main__":
+    main()
