@@ -93,10 +93,5 @@ def main():
     print("\nSimulation completed. {} out of 100,000 simulations resulted in a common birthday.".format(counter))
     print("\nThe probability of having a common birthday is: {:.2f}%".format(counter / SIMULATION * 100))
     
-            
-    
-        
-    
-    
 if __name__ == "__main__":
     main()
